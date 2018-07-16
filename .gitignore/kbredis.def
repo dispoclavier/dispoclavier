@@ -1,0 +1,4 @@
+LIBRARY kbfredis
+ 
+ EXPORTS 
+    KbdLayerDescriptor @1
