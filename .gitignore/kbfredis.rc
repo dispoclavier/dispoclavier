@@ -1,0 +1,51 @@
+#include "winver.h"
+1 VERSIONINFO
+    FILEVERSION       0,6,4,0
+    PRODUCTVERSION    0,6,4,0
+    FILEFLAGSMASK     0x3fL
+    FILEFLAGS         0x0L
+    FILEOS            0x40004L
+    FILETYPE VFT_DLL
+    FILESUBTYPE VFT2_DRV_KEYBOARD
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "000004B0"
+        BEGIN
+            VALUE "FileDescription",     "FR-qzjfgymdlk Keyboard Layout\0"
+            VALUE "InternalName",        "kbfredis\0"
+            VALUE "ProductName",         "Prototypes for French\0"
+            VALUE "FileVersion",         "0.6.4.0\0"
+            VALUE "ProductVersion",      "0.6.4.0\0"
+            VALUE "Release Information", "drivers compiled using MSKLC 1.4 and the included KbdUTool 3.40\0"
+            VALUE "CompanyName",         "dispoclavier.com\0"
+            VALUE "LegalCopyright",      "© 2017..2018 marcel@dispoclavier.eu\0"
+            VALUE "OriginalFilename",    "kbfredis.dll\0"
+            VALUE "Comments",            "Additional modifiers and toggles\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0000, 0x04B0
+    END
+END
+
+STRINGTABLE DISCARDABLE
+LANGUAGE 9, 1
+BEGIN
+    1200    "fr-FR"
+END
+
+
+STRINGTABLE DISCARDABLE
+LANGUAGE 9, 1
+BEGIN
+    1000    "Français qzjfgymdlk"
+END
+
+
+STRINGTABLE DISCARDABLE
+LANGUAGE 9, 1
+BEGIN
+    1100    "French (France)"
+END
