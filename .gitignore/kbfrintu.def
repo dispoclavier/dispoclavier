@@ -1,0 +1,4 @@
+LIBRARY kbfrintu
+ 
+ EXPORTS 
+    KbdLayerDescriptor @1
